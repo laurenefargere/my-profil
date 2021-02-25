@@ -1,0 +1,71 @@
+body{
+	text-align: center;
+	background-color: rgb(240,240,240);
+	font-family: 'Big Shoulders Inline Text', cursive;
+	font-family: 'Big Shoulders Stencil Text', cursive;
+	font-family: 'Gruppo', cursive;
+  background-image: url(image/architecture.jpg);
+  background-attachment: fixed;
+}
+
+.iconify { width: 50px; height: 50px; }
+
+
+h1, h2{
+	font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+img{
+	height:10px;
+}
+
+ul{
+	padding-left:0;
+}
+
+li style{
+  float: left;
+  float: right;
+}
+
+style{
+  height:200px;
+  width:200px;
+}
+
+a{
+	text-decoration: none;
+}
+
+div{
+	background-color: #e7f1d5;
+    padding: 20px;
+    margin: 20px 150px;
+    border-radius: 3px;
+    box-shadow: 3px 5px 10px rgba(200,200,200,0.3);
+    font-weight: bold;
+}
+
+img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
